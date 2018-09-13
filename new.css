@@ -1,0 +1,146 @@
+/*
+ * Madeleine schwartz
+ * personal website
+ * new.css
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+	margin-top: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.row {
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 40px;
+	margin-bottom: 5%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .header {margin-left: 15%; margin-right: 15%;}
+    .row {margin-left: 15%; margin-right: 15%;}
+    .allcontent {padding-left: 15px;}
+}
+
+
+[class*="col-"] {
+    float: left;
+}
+
+a:link {
+	background-color: transparent;
+	text-decoration: underline;
+	color: #666666;
+}
+
+a:visited {
+	background-color: transparent;
+	text-decoration: none;
+	color: #666666;
+}
+
+.github:link, .linkedin:link, .email:link, .resume:link {
+	padding-right: 3%;
+	color: #666666;
+}
+
+.github:hover, #tufts:hover, #congress:hover, #depCSlink:hover,
+#civicLink:hover {
+	color: #9686ff; /* Purple */
+}
+
+.linkedin:hover, #mit:hover, #civic:hover, #icprLink:hover,
+#dailyLink:hover {
+	color: #FF4300; /* orange */
+}
+
+.email:hover, #tufts-job:hover, #daily:hover, #tuftsLink:hover {
+	color: #00C47F /* green */
+}
+
+.resume:hover, #icpr:hover, #linkLV:hover, #congressLink:hover {
+	color: #F4BF00 /* yellow */
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.25em;
+}
+
+.outline {
+	margin-bottom: 20px;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+.contact {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.23em;
+}
+
+.group {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	color: #666666;
+	white-space: nowrap;
+}
+
+.list {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	color: #666666;
+}
+
+.location {
+	font-family: 'Merriweather', serif;
+	font-size: 10px;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	font-style: italic;
+	color: #C4C4C4;
+	padding-left: 5px;
+}
+
+.allcontent {
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+
