@@ -1,7 +1,7 @@
 <!--
 	Madeleine Schwartz
 	personal website
-	new.html
+	index.html
 -->
 
 <!DOCTYPE html>
@@ -29,7 +29,7 @@
        	href="https://www.linkedin.com/in/madeleine-schwartz-68b781123/" target="_blank">
        	linkedin</a>
     	<a class="email" href="mailto:madeleine.schwartz@tufts.edu">email</a>
-    	<a class="resume" href="ms_resume.pdf" target="_blank">
+    	<a class="resume" href="technical_resume.pdf" target="_blank">
     	resume</a>
 	</p>
 
@@ -41,7 +41,7 @@
 	<!--Left Column-->
 	<div class="col-6">
 	<div class="outline">
-		<div class="group">education</div>
+		<h2 class="group">education</h2>
 
 		<a id="tufts" class="list" href="#" 
 		onclick="displayContent('content-edu')">Tufts University</a> 
@@ -49,7 +49,13 @@
 
 		<br><br>
 
-		<div class="group">experience</div>
+		<h2 class="group">experience</h2>
+
+        <a id="viasat" class="list" href="#"
+        onclick="displayContent('content-viasat')">Viasat</a>
+        <span class="location">Boston, MA</span>
+
+        <br>
 
 		<a id="mit" class="list" href="#" 
 		onclick="displayContent('content-mit')">MIT LobbyView</a> 
@@ -64,8 +70,7 @@
 		<br>
 
 		<a id="icpr" class="list" href="#" 
-		onclick="displayContent('content-icpr')">
-		IL Campaign for Political Reform</a> 
+		onclick="displayContent('content-icpr')">IL Campaign for Political Reform</a> 
 		<span class="location">Chicago, IL</span>
 
 		<br>
@@ -86,7 +91,14 @@
 		onclick="displayContent('content-daily')">Tufts Daily</a> 
 		<span class="location">Medford, MA</span>
 
-		<br>
+		<br><br>
+
+		<h2 class="group">Projects</h2>
+
+
+		<a id="helpOut" class="list" href="#" 
+		onclick="displayContent('content-helpout')">HelpOut</a> 
+		<span class="location">Carlsbad, CA</span>
 
 		<script src="new.js"></script>
 	</div>
@@ -96,27 +108,33 @@
 	<div class="col-6">
 		<div class="allcontent">
 
+			<!-- Content for about -->
 			<div id="about">
 			Hi! My name is Madeleine. I'm a student, journalist, and
 			Catan enthusiast! I love to ride my bike on trails or
 			busy urban streets, and I can knit a stitch or two.<br><br>
 
 			Right now I'm working as a UI/UX Programmer for LobbyView
-			and as a teaching assistant for discrete math at Tufts 
-			University.
+			and as a research assistant for Professor Eichenberg in the
+            Department of Political Science at Tufts University.
 			</div>
 
 			<div id="content-edu" style="display:none">
 
-			<a id="tuftsLink" href="https://www.tufts.edu/">Tufts University
-			</a> <span>| Class of 2020 </span><br>
-			Medford, MA <br><br>
-			B.S. in Computer Science and Political Science <br><br>
+			<!-- Content for Tufts Education -->
+			<a id="tuftsLink" href="https://www.tufts.edu/">
+				<h3>Tufts University</h3>
+			</a>
+			<h4>Medford, MA</h4>
+			<p>
+			B.S. in Computer Science and Political Science, Class of 2020 <br><br>
 
 			Favorite Courses: Data Structures, Machine Structure and 
-			Assembly Language, Discrete Math, Gender Work and 
-			Politics in East Asia, Latin American Politics, Intro
-			to Ethics <br><br>
+			Assembly Language, Computer Security, Algorithms, 
+            Programming Langugages, Discrete Math, Gender Work and 
+			Politics in East Asia, Middle Eastern Politics, Gender 
+			in World Politics, Ethics, and Epistemology.
+            <br><br>
 
 			I had originally enrolled in the introductory computer science 
 			class on a whim simply to fulfill a math requiredment!
@@ -127,17 +145,40 @@
 			by not only designing and implementing programs, but by 
 			also asking ethical questions and discussing policies. <br><br>
 
-			This semester I am excited to be taking courses on 
-			computer security, algorithms, ceramics, epistemology,
-			and middle eastern politics. <br><br>
-
+			This semester I am excited to be taking courses on programming
+			langugage design, internet-scale distributed systems, linear
+            algebra, political revolutions, and Soviet politics. <br><br>
+			</p>
 			</div>
 
+			<!-- Content for Viasat -->
+			<div id="content-viasat" style="display:none">
+				<a id="linkViasat" href="https://www.viasat.com/">
+					<h3>Viasat</h3>
+				</a>
+				<h4>Boston, MA</h4>
+				<p>
+				Software Engineer, May 2019 - August 2019<br><br>
+	
+				Viasat is a telecommunications company currently providing 
+				residential and community based satellite internet to areas
+				where reliable high speed internet is not usually accessible.
+				I worked on their research team on internet acceleration using
+				machine learning methods to select the most important
+				features in predicting webpage loading times. This involved
+				building an entire pipeline to gather and clean data, engineer
+				about 300 features, and design and build an automated feature
+				selection tool.
+				</p>
+				</div>
+
+			<!-- Content for MIT Lobbyview -->
 			<div id="content-mit" style="display:none">
 			<a id="linkLV" href="https://www.lobbyview.org/#!/">
-			MIT LobbyView</a> <br>
-			Cambridge, MA<br><br>
-			
+				<h3>MIT LobbyView</h3>
+			</a>
+			<h4>Cambridge, MA</h4>
+			<p>
 			UI/UX Programmer, Sep 2018 - Present<br><br>
 
 			LobbyView is a comprehensive database that actively tracks and 
@@ -147,39 +188,34 @@
 			<br><br>
 
 			As a UI/UX Programmer, I am designing and implementing the main 
-			query page using HTML Jade, CSS Style, JavaScript Coffee, Ubuntu,
-			Python build, AWS, and Angular.
+			query page using HTML, CSS, React, and Node.js.
+			</p>
 			</div>
 
+			<!-- Content for research at Tufts -->
 			<div id="content-tufts" style="display:none">
 			<a id="depCSlink" href="https://engineering.tufts.edu/cs/">
-			Tufts University Dept of Computer Science</a> <br>
-			Medford MA <br> <br>
-			Discrete Math Teaching Assistant, Sep 2018 - Present<br>
-			Administrative Assistant, Sep 2017 - May 2018<br><br>
+				<h3>Tufts University Dept of Political Science</h3>
+			</a>
+			<h4>Medford, MA</h4>
+			<p>
+			Research Assistant Sep 2019 - Present<br><br>
 
-			As a teaching assistant for discrete math, I
-			<ul>
-				<li>Teach students during weekly office hours</li>
-				<li>Grade homework assignments</li>
-			</ul>
-			<br>
-
-			As an administrative assistnt, I
-			<ul>
-				<li>Designed advertisements for department events</li>
-				<li>Performed clerical duties such as copying, faxing, 
-				sorting mail, etc</li>
-			</ul>
-
+			Professor Richard Eichenberg of the Department of Political Science 
+			conducts research on public opinion and gender issues in the United 
+			States foreign policy. As his research assistant, I am collecting
+			data on the US Department of State's policy activity in promoting
+			gender equality around the world.
+			</p>
 			</div>
 
-
+			<!-- Content for ICPR -->
 			<div id="content-icpr" style="display:none">
-			<body>
 			<a id="icprLink" href="http://www.ilcampaign.org/">
-			Illinois Campaign for Political Reform</a> <br>
-			Chicago IL <br><br>
+				<h3>Illinois Campaign for Political Reform</h3>
+			</a>
+			<h4>Chicago, IL</h4>
+			<p>
 			Policy Research Analyst, May - August 2018 <br><br>
 
 			Illinois Campaign for Political Reform is a 501(c)3 
@@ -187,7 +223,8 @@
 			integrity, accountability, and transparency in Illinois by 
 			addressing campaign finance, voter accessible, and election 
 			reforms. 
-			<br><br>
+			
+			<br>
 
 			As a Policy Research Analyst, I
 				<ul>
@@ -204,17 +241,18 @@
 				<li>Coded web-scrapers to collect public but inaccessible 
 				government information</li>
 				</ul>
-			</body>
+			</p>
 			</div>
 
+			<!-- Content for congressional intern -->
 			<div id="content-congress" style="display:none">
-			<body>
 			<a id="congressLink" href="https://quigley.house.gov/">
-			District Office of the Honorable Mike Quigley</a><br>
-			Chicago IL<br><br>
+				<h3>District Office of the Honorable Mike Quigley</h3>
+			</a>
+			<h4>Chicago, IL</h4>
 			Intern, May 2017 - July 2017<br>
 			<br>
-
+			<p>
 			The Honorable Mike Quigley serves Illinois’ 5th district in the 
 			U.S. House of Representatives. His district office is where he and 
 			his staff directly connect with his constituents by listening to 
@@ -229,14 +267,16 @@
 				<li>Researched national policy on labor and trade, civil 
 				liberties, and national security</li>
 			</ul>
-			</body>
+			</p>
 			</div>
 
+			<!-- Content for tufts civic-->
 			<div id="content-civic" style="display:none">
-			<body>
-			<a id="civicLink" href="https://tuftscivic.com/">Tufts CIVIC</a>
-			<br>Medford, MA<br><br>
-			Logistics Director, May 2018 - Present<br>
+			<a id="civicLink" href="https://tuftscivic.com/">
+				<h3>Tufts CIVIC</h3>
+			</a>
+			<h4>Medford, MA</h4>
+			Logistics Director, May 2018 - May 2019<br>
 			Communications Director, May 2017 - May 2018<br>
 			General Member, Sep 2016 - May 2017<br><br>
 
@@ -257,10 +297,14 @@
 			</body>
 			</div>
 
+			<!-- Content for tufts daily -->
 			<div id="content-daily" style="display:none">
-			<a id="dailyLink" href= "https://tuftsdaily.com/">The Tufts Daily
-			</a><br>
-			Medford, MA <br><br>
+			<a id="dailyLink" href= "https://tuftsdaily.com/">
+				<h3>The Tufts Daily</h3>
+			</a>
+			<h4>Medford, MA</h4>
+			<p>
+			Columnist, Sept 2019 - Present<br>
 			Editorialist and Copy Editor, Sept 2016 - Jan 2018<br>
 			News Writer, Jan 2018 - Present<br><br>
 
@@ -268,13 +312,38 @@
 			newspaper at Tufts University, reporting on campus life, local 
 			politics, art, sports, and more.<br><br>
 
-			As a member of the Tufts Daily, I
+			As an editorialist of the Tufts Daily, I wrote weekly opinion/news 
+			articles covering many issues including current events, 
+			labor on campus, gender issues, and Tufts connection to the 
+			producers of the opioid oxycontin.
+			<br><br>
+			My upcoming column wtih Alice Yoon explores the diverse ways
+			in which food and cooking shapes our lives. As we interview
+			friends and members from the Tufts Community, we learn about
+			the ways cooking is an expression of love, a memory of
+			family and culture, and fun and creative outlet that
+			nourishes us.
+			</p>
 			<ul>
-				<li>Write weekly opinion/news articles covering many issues 
-				including current events, labor on campus, gender issues, and 
-				Tufts connection to the producers of the opioid oxycontin.
+				<li> <a href="https://tuftsdaily.com/features/2019/09/17/bite-size-stories-nimishs-tigris-paneer/">Nimish's Tigris Paneer</a></li>
 			</ul>
 			</div>
+
+			<!-- Content for help out-->
+			<div id="content-helpout" style="display:none">
+				
+					<h3>HelpOut</h3>
+				
+				<h4>Carlsbad, CA</h4>
+				<p>
+				FrontEnd Developer, Winner of Community Outreach Award<br><br>
+	
+				HelpOut is designed to bridge the gap between excited and trained
+				volunteers at refugee resettlement agencies and refugees looking to 
+				adjust to a new space. I helped designed the user interface and experience of a web-app,
+				and I helped implement the frontend with HTML, CSS, Angular JS, Express, 
+				and Node.js
+				</p>
 
 		</div> <!-- end of AllContent-->
 	</div> <!--end of Right Column-->

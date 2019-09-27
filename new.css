@@ -72,7 +72,7 @@ a:visited {
 }
 
 .github:hover, #tufts:hover, #congress:hover, #depCSlink:hover,
-#civicLink:hover {
+#civicLink:hover, #helpOut:hover {
 	color: #9686ff; /* Purple */
 }
 
@@ -85,7 +85,8 @@ a:visited {
 	color: #00C47F /* green */
 }
 
-.resume:hover, #icpr:hover, #linkLV:hover, #congressLink:hover {
+.resume:hover, #icpr:hover, #linkLV:hover, #congressLink:hover, 
+#linkViasat:hover, #viasat:hover {
 	color: #F4BF00 /* yellow */
 }
 

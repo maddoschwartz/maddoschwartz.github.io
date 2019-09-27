@@ -4,9 +4,18 @@
  * new.js
 */
 
-var contentBlocks = ["about", "content-edu", "content-mit", "content-tufts",
-					 "content-icpr", "content-congress", "content-civic", 
-					 "content-daily"];
+var contentBlocks = [
+	"about", 
+	"content-edu", 
+	"content-viasat",
+	"content-mit", 
+	"content-tufts",
+	"content-icpr", 
+	"content-congress", 
+	"content-civic", 
+	"content-daily",
+	"content-helpout"
+];
 
 function displayContent(desiredContent) {
 	var i;
