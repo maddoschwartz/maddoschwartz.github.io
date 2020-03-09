@@ -9,7 +9,6 @@ var contentBlocks = [
 	"content-edu", 
 	"content-viasat",
 	"content-mit", 
-	"content-tufts",
 	"content-icpr", 
 	"content-congress", 
 	"content-civic", 

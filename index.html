@@ -6,349 +6,339 @@
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>MS</title>
+        <!--Please Respond-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--Please Respond-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link to CSS-->
+        <link rel="stylesheet" href="new.css">
 
-<!--Link to CSS-->
-<link rel="stylesheet" href="new.css">
+        <!--Link Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" 
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    </head>
+    <body>
+            <div class="row">
+                    <h1>madeleine schwartz</h1>
+                    <p class="contact">
+                        <a class="github" href="https://github.com/maddoschwartz" target="_blank">github</a>
+                        <a class="linkedin" 
+                               href="https://www.linkedin.com/in/madeleine-schwartz-68b781123/" target="_blank">
+                               linkedin</a>
+                        <a class="email" href="mailto:madeleine.schwartz@tufts.edu">email</a>
+                        <a class="resume" href="technical_resume.pdf" target="_blank">resume</a>
+                    </p>
+                </div>
+                
+                <!--Next Section-->
+                <div class="row">
+                
+                    <!--Left Column-->
+                    <div class="col-6">
+                    <div class="outline">
+                        <h2 class="group">education</h2>
+                
+                        <a id="tufts" class="list" href="#" 
+                        onclick="displayContent('content-edu')">Tufts University</a> 
+                        <span class="location">Medford, MA</span>
+                
+                        <br><br>
+                
+                        <h2 class="group">experience</h2>
+                
+                        <a id="viasat" class="list" href="#"
+                        onclick="displayContent('content-viasat')">Viasat</a>
+                        <span class="location">Boston, MA</span>
+                
+                        <br>
+                
+                        <a id="mit" class="list" href="#" 
+                        onclick="displayContent('content-mit')">MIT LobbyView</a> 
+                        <span class="location">Cambridge, MA</span>
+                
+                        <br>
+                
+                        <a id="icpr" class="list" href="#" 
+                        onclick="displayContent('content-icpr')">IL Campaign for Political Reform</a> 
+                        <span class="location">Chicago, IL</span>
+                
+                        <br>
+                
+                        <a id="congress" class="list" href="#" 
+                        onclick="displayContent('content-congress')">United States Congress</a> 
+                        <span class="location">Chicago, IL</span>
+                
+                        <br>
+                
+                        <a id="civic" class="list" href="#" 
+                        onclick="displayContent('content-civic')">CIVIC</a>
+                        <span class="location">Medford, MA</span>
+                
+                        <br>
+                
+                        <a id="daily" class="list" href="#" 
+                        onclick="displayContent('content-daily')">Tufts Daily</a> 
+                        <span class="location">Medford, MA</span>
+                
+                        <br><br>
+                
+                        <h2 class="group">Projects</h2>
+                
+                
+                        <a id="helpOut" class="list" href="#" 
+                        onclick="displayContent('content-helpout')">HelpOut</a> 
+                        <span class="location">Carlsbad, CA</span>
+                
+                        <script src="new.js"></script>
+                    </div>
+                    </div>
+                
+                    <!--Right Column for full content-->
+                    <div class="col-6">
+                        <div class="allcontent">
+                
+                            <!-- Content for about -->
+                            <div id="about">
+                            Hi! My name is Madeleine. I'm a student, journalist, and
+                            sourdough enthusiast! I love to ride my bike on trails or
+                            busy urban streets, and I can knit a stitch or two.<br><br>
+                
+							Right now I'm working as a UI/UX Programmer for LobbyView and am
+							writing a food column for the Tufts Daily.
+							This September I am excited to be joining Viasat Inc. as a software engineer.
+                            </div>
+                
+                            <div id="content-edu" style="display:none">
+                
+                            <!-- Content for Tufts Education -->
+                            <a id="tuftsLink" href="https://www.tufts.edu/">
+                                <h3>Tufts University</h3>
+                            </a>
+                            <h4>Medford, MA</h4>
+                            <p>
+                            B.S. in Computer Science and Political Science, Class of 2020 <br><br>
+                
+                            Favorite Courses: Data Structures, Machine Structure and 
+                            Assembly Language, Computer Security, Algorithms, 
+                            Programming Langugages, Discrete Math, Gender Work and 
+                            Politics in East Asia, Middle Eastern Politics, Gender 
+                            in World Politics, Ethics, and Epistemology.
+                            <br><br>
+                
+                            I had originally enrolled in the introductory computer science 
+                            class on a whim simply to fulfill a math requiredment!
+                            While I would have never imaged that two years later
+                            I would now have several more math credits and a major
+                            in computer science, I did see myself tackling
+                            problems and creating real solutions. And I've done this
+                            by not only designing and implementing programs, but by 
+                            also asking ethical questions and discussing policies. <br><br>
+                
+                            This semester I am excited to be taking courses on programming
+                            langugage design, internet-scale distributed systems, linear
+                            algebra, political revolutions, and Soviet politics. <br><br>
+                            </p>
+                            </div>
+                
+                            <!-- Content for Viasat -->
+                            <div id="content-viasat" style="display:none">
+                                <a id="linkViasat" href="https://www.viasat.com/">
+                                    <h3>Viasat</h3>
+                                </a>
+                                <h4>Boston, MA</h4>
+                                <p>
+                                Software Engineer, May 2019 - August 2019<br><br>
+                    
+                                Viasat is a telecommunications company currently providing 
+                                residential and community based satellite internet to areas
+                                where reliable high speed internet is not usually accessible.
+                                I worked on their research team on internet acceleration using
+                                machine learning methods to select the most important
+                                features in predicting webpage loading times. This involved
+                                building an entire pipeline to gather and clean data, engineer
+                                about 300 features, and design and build an automated feature
+                                selection tool.
+                                </p>
+                                </div>
+                
+                            <!-- Content for MIT Lobbyview -->
+                            <div id="content-mit" style="display:none">
+                            <a id="linkLV" href="https://www.lobbyview.org/#!/">
+                                <h3>MIT LobbyView</h3>
+                            </a>
+                            <h4>Cambridge, MA</h4>
+                            <p>
+                            UI/UX Programmer, Sep 2018 - Present<br><br>
+                
+                            LobbyView is a comprehensive database that actively tracks and 
+                            organizes lobbying activities in Washington, DC. Led by MIT 
+                            Professor In Song Kim and funded by the National Science 
+                            Foundation, LobbyView increases transparency of money in politics.
+                            <br><br>
+                
+                            As a UI/UX Programmer, I am designing and implementing the website
+                            and daa visualizations using HTML, CSS, React, and Node.js. Below
+                            are a selection of mock ups.
+                            </p>
+                            <br>
+                            <img src="./mock1.png">
 
-<!--Link Google Fonts-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-<link href="https://fonts.googleapis.com/css?family=Merriweather" 
-	  rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+                            <img src="./mock2.png">
 
-<!--Top of Page-->
-<div class="header">
+                            <img src="./mock3.png">
 
-	<h1>madeleine schwartz</h1>
-	<p class="contact">
-    	<a class="github" href="https://github.com/maddoschwartz" target="_blank">github</a>
-    	<a class="linkedin" 
-       	href="https://www.linkedin.com/in/madeleine-schwartz-68b781123/" target="_blank">
-       	linkedin</a>
-    	<a class="email" href="mailto:madeleine.schwartz@tufts.edu">email</a>
-    	<a class="resume" href="technical_resume.pdf" target="_blank">
-    	resume</a>
-	</p>
-
-</div>
-
-<!--Next Section-->
-<div class="row">
-
-	<!--Left Column-->
-	<div class="col-6">
-	<div class="outline">
-		<h2 class="group">education</h2>
-
-		<a id="tufts" class="list" href="#" 
-		onclick="displayContent('content-edu')">Tufts University</a> 
-		<span class="location">Medford, MA</span>
-
-		<br><br>
-
-		<h2 class="group">experience</h2>
-
-        <a id="viasat" class="list" href="#"
-        onclick="displayContent('content-viasat')">Viasat</a>
-        <span class="location">Boston, MA</span>
-
-        <br>
-
-		<a id="mit" class="list" href="#" 
-		onclick="displayContent('content-mit')">MIT LobbyView</a> 
-		<span class="location">Cambridge, MA</span>
-
-		<br>
-
-		<a id="tufts-job" class="list" href="#" 
-		onclick="displayContent('content-tufts')">Tufts University</a> 
-		<span class="location">Medford, MA</span>
-
-		<br>
-
-		<a id="icpr" class="list" href="#" 
-		onclick="displayContent('content-icpr')">IL Campaign for Political Reform</a> 
-		<span class="location">Chicago, IL</span>
-
-		<br>
-
-		<a id="congress" class="list" href="#" 
-		onclick="displayContent('content-congress')">United States Congress</a> 
-		<span class="location">Chicago, IL</span>
-
-		<br>
-
-		<a id="civic" class="list" href="#" 
-		onclick="displayContent('content-civic')">CIVIC</a>
-		<span class="location">Medford, MA</span>
-
-		<br>
-
-		<a id="daily" class="list" href="#" 
-		onclick="displayContent('content-daily')">Tufts Daily</a> 
-		<span class="location">Medford, MA</span>
-
-		<br><br>
-
-		<h2 class="group">Projects</h2>
-
-
-		<a id="helpOut" class="list" href="#" 
-		onclick="displayContent('content-helpout')">HelpOut</a> 
-		<span class="location">Carlsbad, CA</span>
-
-		<script src="new.js"></script>
-	</div>
-	</div>
-
-	<!--Right Column for full content-->
-	<div class="col-6">
-		<div class="allcontent">
-
-			<!-- Content for about -->
-			<div id="about">
-			Hi! My name is Madeleine. I'm a student, journalist, and
-			Catan enthusiast! I love to ride my bike on trails or
-			busy urban streets, and I can knit a stitch or two.<br><br>
-
-			Right now I'm working as a UI/UX Programmer for LobbyView
-			and as a research assistant for Professor Eichenberg in the
-            Department of Political Science at Tufts University.
-			</div>
-
-			<div id="content-edu" style="display:none">
-
-			<!-- Content for Tufts Education -->
-			<a id="tuftsLink" href="https://www.tufts.edu/">
-				<h3>Tufts University</h3>
-			</a>
-			<h4>Medford, MA</h4>
-			<p>
-			B.S. in Computer Science and Political Science, Class of 2020 <br><br>
-
-			Favorite Courses: Data Structures, Machine Structure and 
-			Assembly Language, Computer Security, Algorithms, 
-            Programming Langugages, Discrete Math, Gender Work and 
-			Politics in East Asia, Middle Eastern Politics, Gender 
-			in World Politics, Ethics, and Epistemology.
-            <br><br>
-
-			I had originally enrolled in the introductory computer science 
-			class on a whim simply to fulfill a math requiredment!
-			While I would have never imaged that two years later
-			I would now have several more math credits and a major
-			in computer science, I did see myself tackling
-			problems and creating real solutions. And I've done this
-			by not only designing and implementing programs, but by 
-			also asking ethical questions and discussing policies. <br><br>
-
-			This semester I am excited to be taking courses on programming
-			langugage design, internet-scale distributed systems, linear
-            algebra, political revolutions, and Soviet politics. <br><br>
-			</p>
-			</div>
-
-			<!-- Content for Viasat -->
-			<div id="content-viasat" style="display:none">
-				<a id="linkViasat" href="https://www.viasat.com/">
-					<h3>Viasat</h3>
-				</a>
-				<h4>Boston, MA</h4>
-				<p>
-				Software Engineer, May 2019 - August 2019<br><br>
-	
-				Viasat is a telecommunications company currently providing 
-				residential and community based satellite internet to areas
-				where reliable high speed internet is not usually accessible.
-				I worked on their research team on internet acceleration using
-				machine learning methods to select the most important
-				features in predicting webpage loading times. This involved
-				building an entire pipeline to gather and clean data, engineer
-				about 300 features, and design and build an automated feature
-				selection tool.
-				</p>
-				</div>
-
-			<!-- Content for MIT Lobbyview -->
-			<div id="content-mit" style="display:none">
-			<a id="linkLV" href="https://www.lobbyview.org/#!/">
-				<h3>MIT LobbyView</h3>
-			</a>
-			<h4>Cambridge, MA</h4>
-			<p>
-			UI/UX Programmer, Sep 2018 - Present<br><br>
-
-			LobbyView is a comprehensive database that actively tracks and 
-			organizes lobbying activities in Washington, DC. Led by MIT 
-			Professor In Song Kim and funded by the National Science 
-			Foundation, LobbyView increases transparency of money in politics.
-			<br><br>
-
-			As a UI/UX Programmer, I am designing and implementing the main 
-			query page using HTML, CSS, React, and Node.js.
-			</p>
-			</div>
-
-			<!-- Content for research at Tufts -->
-			<div id="content-tufts" style="display:none">
-			<a id="depCSlink" href="https://engineering.tufts.edu/cs/">
-				<h3>Tufts University Dept of Political Science</h3>
-			</a>
-			<h4>Medford, MA</h4>
-			<p>
-			Research Assistant Sep 2019 - Present<br><br>
-
-			Professor Richard Eichenberg of the Department of Political Science 
-			conducts research on public opinion and gender issues in the United 
-			States foreign policy. As his research assistant, I am collecting
-			data on the US Department of State's policy activity in promoting
-			gender equality around the world.
-			</p>
-			</div>
-
-			<!-- Content for ICPR -->
-			<div id="content-icpr" style="display:none">
-			<a id="icprLink" href="http://www.ilcampaign.org/">
-				<h3>Illinois Campaign for Political Reform</h3>
-			</a>
-			<h4>Chicago, IL</h4>
-			<p>
-			Policy Research Analyst, May - August 2018 <br><br>
-
-			Illinois Campaign for Political Reform is a 501(c)3 
-			non-partisan non-profit dedicated to promoting government 
-			integrity, accountability, and transparency in Illinois by 
-			addressing campaign finance, voter accessible, and election 
-			reforms. 
-			
-			<br>
-
-			As a Policy Research Analyst, I
-				<ul>
-				<li>Researched state and municipal policies regarding FOIA, 
-				voting equipment, and public campaign financing</li>
-				<li>Designed infographics to accompany weekly research articles 
-				and other promo materials</li>
-				<li>Collected and analyzed campaign finance data of federal, 
-				state, and local candidates</li>
-				<li>Designed ICPR’s theory of change and yearly progress 
-				report</li>
-				<li>Created a re-branding and marketing strategy and 
-				conducted monthly social media analytic reports</li>
-				<li>Coded web-scrapers to collect public but inaccessible 
-				government information</li>
-				</ul>
-			</p>
-			</div>
-
-			<!-- Content for congressional intern -->
-			<div id="content-congress" style="display:none">
-			<a id="congressLink" href="https://quigley.house.gov/">
-				<h3>District Office of the Honorable Mike Quigley</h3>
-			</a>
-			<h4>Chicago, IL</h4>
-			Intern, May 2017 - July 2017<br>
-			<br>
-			<p>
-			The Honorable Mike Quigley serves Illinois’ 5th district in the 
-			U.S. House of Representatives. His district office is where he and 
-			his staff directly connect with his constituents by listening to 
-			their concerns and helping them with federal agencies.
-			<br><br>
-
-			As a summer intern, I
-			<ul>
-				<li>Provided first line of service by answering telephones</li>
-				<li>Analyzed social media outreach and recorded all media 
-				mentions and appearances</li>
-				<li>Researched national policy on labor and trade, civil 
-				liberties, and national security</li>
-			</ul>
-			</p>
-			</div>
-
-			<!-- Content for tufts civic-->
-			<div id="content-civic" style="display:none">
-			<a id="civicLink" href="https://tuftscivic.com/">
-				<h3>Tufts CIVIC</h3>
-			</a>
-			<h4>Medford, MA</h4>
-			Logistics Director, May 2018 - May 2019<br>
-			Communications Director, May 2017 - May 2018<br>
-			General Member, Sep 2016 - May 2017<br><br>
-
-			Tufts CIVIC is a discussion-based student organization that seeks 
-			to provide a forum for political discourse on campus by 
-			allowing students to freely express opinions from across the 
-			political spectrum. <br><br>
-
-			As an executive board member, I
-			<ul>
-				<li>Designed a public marketing strategy encompasing email, 
-				posters, flyers, and social media</li>
-				<li>Organize events such as formal debates, civic action workshops, and 
-				policy challenges</li>
-			</ul>
-
-
-			</body>
-			</div>
-
-			<!-- Content for tufts daily -->
-			<div id="content-daily" style="display:none">
-			<a id="dailyLink" href= "https://tuftsdaily.com/">
-				<h3>The Tufts Daily</h3>
-			</a>
-			<h4>Medford, MA</h4>
-			<p>
-			Columnist, Sept 2019 - Present<br>
-			Editorialist and Copy Editor, Sept 2016 - Jan 2018<br>
-			News Writer, Jan 2018 - Present<br><br>
-
-			The Tufts Daily is a student-run and financially independent daily 
-			newspaper at Tufts University, reporting on campus life, local 
-			politics, art, sports, and more.<br><br>
-
-			As an editorialist of the Tufts Daily, I wrote weekly opinion/news 
-			articles covering many issues including current events, 
-			labor on campus, gender issues, and Tufts connection to the 
-			producers of the opioid oxycontin.
-			<br><br>
-			My upcoming column wtih Alice Yoon explores the diverse ways
-			in which food and cooking shapes our lives. As we interview
-			friends and members from the Tufts Community, we learn about
-			the ways cooking is an expression of love, a memory of
-			family and culture, and fun and creative outlet that
-			nourishes us.
-			</p>
-			<ul>
-				<li> <a href="https://tuftsdaily.com/features/2019/09/17/bite-size-stories-nimishs-tigris-paneer/">Nimish's Tigris Paneer</a></li>
-			</ul>
-			</div>
-
-			<!-- Content for help out-->
-			<div id="content-helpout" style="display:none">
-				
-					<h3>HelpOut</h3>
-				
-				<h4>Carlsbad, CA</h4>
-				<p>
-				FrontEnd Developer, Winner of Community Outreach Award<br><br>
-	
-				HelpOut is designed to bridge the gap between excited and trained
-				volunteers at refugee resettlement agencies and refugees looking to 
-				adjust to a new space. I helped designed the user interface and experience of a web-app,
-				and I helped implement the frontend with HTML, CSS, Angular JS, Express, 
-				and Node.js
-				</p>
-
-		</div> <!-- end of AllContent-->
-	</div> <!--end of Right Column-->
-
-</div> <!--end of Row-->
-
+                            </div>
+                
+                            <!-- Content for ICPR -->
+                            <div id="content-icpr" style="display:none">
+                            <a id="icprLink" href="http://www.ilcampaign.org/">
+                                <h3>Illinois Campaign for Political Reform</h3>
+                            </a>
+                            <h4>Chicago, IL</h4>
+                            <p>
+                            Policy Research Analyst, May - August 2018 <br><br>
+                
+                            Illinois Campaign for Political Reform is a 501(c)3 
+                            non-partisan non-profit dedicated to promoting government 
+                            integrity, accountability, and transparency in Illinois by 
+                            addressing campaign finance, voter accessible, and election 
+                            reforms. 
+                            
+                            <br>
+                
+                            As a Policy Research Analyst, I
+                                <ul>
+                                <li>Researched state and municipal policies regarding FOIA, 
+                                voting equipment, and public campaign financing</li>
+                                <li>Designed infographics to accompany weekly research articles 
+                                and other promo materials</li>
+                                <li>Collected and analyzed campaign finance data of federal, 
+                                state, and local candidates</li>
+                                <li>Designed ICPR’s theory of change and yearly progress 
+                                report</li>
+                                <li>Created a re-branding and marketing strategy and 
+                                conducted monthly social media analytic reports</li>
+                                <li>Coded web-scrapers to collect public but inaccessible 
+                                government information</li>
+                                </ul>
+                            </p>
+                            </div>
+                
+                            <!-- Content for congressional intern -->
+                            <div id="content-congress" style="display:none">
+                            <a id="congressLink" href="https://quigley.house.gov/">
+                                <h3>District Office of the Honorable Mike Quigley</h3>
+                            </a>
+                            <h4>Chicago, IL</h4>
+                            Intern, May 2017 - July 2017<br>
+                            <br>
+                            <p>
+                            The Honorable Mike Quigley serves Illinois’ 5th district in the 
+                            U.S. House of Representatives. His district office is where he and 
+                            his staff directly connect with his constituents by listening to 
+                            their concerns and helping them with federal agencies.
+                            <br><br>
+                
+                            As a summer intern, I
+                            <ul>
+                                <li>Provided first line of service by answering telephones</li>
+                                <li>Analyzed social media outreach and recorded all media 
+                                mentions and appearances</li>
+                                <li>Researched national policy on labor and trade, civil 
+                                liberties, and national security</li>
+                            </ul>
+                            </p>
+                            </div>
+                
+                            <!-- Content for tufts civic-->
+                            <div id="content-civic" style="display:none">
+                            <a id="civicLink" href="https://tuftscivic.com/">
+                                <h3>Tufts CIVIC</h3>
+                            </a>
+                            <h4>Medford, MA</h4>
+                            Logistics Director, May 2018 - May 2019<br>
+                            Communications Director, May 2017 - May 2018<br>
+                            General Member, Sep 2016 - May 2017<br><br>
+                
+                            Tufts CIVIC is a discussion-based student organization that seeks 
+                            to provide a forum for political discourse on campus by 
+                            allowing students to freely express opinions from across the 
+                            political spectrum. <br><br>
+                
+                            As an executive board member, I
+                            <ul>
+                                <li>Designed a public marketing strategy encompasing email, 
+                                posters, flyers, and social media</li>
+                                <li>Organize events such as formal debates, civic action workshops, and 
+                                policy challenges</li>
+                            </ul>
+                
+                
+                            </body>
+                            </div>
+                
+                            <!-- Content for tufts daily -->
+                            <div id="content-daily" style="display:none">
+                            <a id="dailyLink" href= "https://tuftsdaily.com/">
+                                <h3>The Tufts Daily</h3>
+                            </a>
+                            <h4>Medford, MA</h4>
+                            <p>
+                            Columnist, Sept 2019 - Present<br>
+                            Editorialist and Copy Editor, Sept 2016 - Jan 2018<br>
+                            News Writer, Jan 2018 - Present<br><br>
+                
+                            The Tufts Daily is a student-run and financially independent daily 
+                            newspaper at Tufts University, reporting on campus life, local 
+                            politics, art, sports, and more.<br><br>
+                
+                            As an editorialist of the Tufts Daily, I wrote weekly opinion/news 
+                            articles covering many issues including current events, 
+                            labor on campus, gender issues, and Tufts connection to the 
+                            producers of the opioid oxycontin.
+                            <br><br>
+                            My upcoming column wtih Alice Yoon explores the diverse ways
+                            in which food and cooking shapes our lives. As we interview
+                            friends and members from the Tufts Community, we learn about
+                            the ways cooking is an expression of love, a memory of
+                            family and culture, and fun and creative outlet that
+                            nourishes us.
+                            </p>
+                            <ul>
+                                <li> <a href="https://tuftsdaily.com/features/2019/09/17/bite-size-stories-nimishs-tigris-paneer/">Nimish's Tigris Paneer</a></li>
+								<li> <a href="https://tuftsdaily.com/features/2019/10/01/bite-sized-stories-celines-little-meat/">Celine's Little Meat</a></li>
+								<li> <a href="https://tuftsdaily.com/features/2019/10/29/bite-sized-stories-andrews-matcha-cheesecake/">Andrew's Matcha Cheesecake</a></li>
+								<li> <a href="https://tuftsdaily.com/columns/2019/11/12/bite-sized-stories-mahimas-plastic-recipe/">Mahima's Plastic Recpie</a></li>
+								<li> <a href="https://tuftsdaily.com/features/2019/11/26/bite-sized-stories-friendsgiving/">Friendsgiving</a></li>
+								<li> <a href="https://tuftsdaily.com/columns/2020/02/05/bite-sized-stories-dumpling-night/">Dumpling Night</a></li>
+								<li> <a href="https://tuftsdaily.com/features/2020/02/19/bite-sized-stories-bountiful-bagels/">Bountiful Bagels</a></li>
+								<li> <a href="https://tuftsdaily.com/features/2020/03/04/bite-sized-stories-leonas-quick-n-easy-beans/">Leona's Quick-n-Easy Beans</a></li>
+							</ul>
+                            </div>
+                
+                            <!-- Content for help out-->
+                            <div id="content-helpout" style="display:none">
+                                
+                                    <h3>HelpOut</h3>
+                                
+                                <h4>Carlsbad, CA</h4>
+                                <p>
+                                FrontEnd Developer, Winner of Community Outreach Award<br><br>
+                    
+                                HelpOut is designed to bridge the gap between excited and trained
+                                volunteers at refugee resettlement agencies and refugees looking to 
+                                adjust to a new space. I helped designed the user interface and experience of a web-app,
+                                and I helped implement the frontend with HTML, CSS, Angular JS, Express, 
+                                and Node.js
+                                </p>
+                
+                        </div> <!-- end of AllContent-->
+                    </div> <!--end of Right Column-->
+                
+                </div> <!--end of Row-->
+    </body>
 
 </html>
