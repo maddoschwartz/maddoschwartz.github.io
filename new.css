@@ -94,7 +94,7 @@ a:visited {
 
 h1 {
 	font-family: 'Merriweather', serif;
-	font-size: 20px;
+	font-size: 30px;
 	letter-spacing: 0.23em;
 }
 
@@ -102,20 +102,20 @@ h1 {
 	margin-bottom: 20px;
 	text-align: left;
 	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 2em;
 	letter-spacing: 0.08em;
 }
 
 .contact {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 12px;
+	font-size: 18px;
 	letter-spacing: 0.23em;
 }
 
 .group {
 	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 2em;
 	letter-spacing: 0.08em;
 	color: #666666;
@@ -124,7 +124,7 @@ h1 {
 
 .list {
 	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 2em;
 	letter-spacing: 0.08em;
 	color: #666666;
@@ -132,7 +132,7 @@ h1 {
 
 .location {
 	font-family: 'Merriweather', serif;
-	font-size: 9px;
+	font-size: 16px;
 	line-height: 2em;
 	letter-spacing: 0.08em;
 	font-style: italic;
@@ -143,7 +143,7 @@ h1 {
 .allcontent {
 	text-align: left;
 	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 2em;
 	letter-spacing: 0.08em;
 	color: #666666;
